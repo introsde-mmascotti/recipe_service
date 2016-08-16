@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">         
+  <mapping> 
+    <class-a>fooddata.adapter.service.Product</class-a>
+    <class-b>recipestorage.service.Ingredient</class-b>
+    <field>
+      <a>itemName</a>
+      <b>name</b>
+    </field>
+    <field>
+      <a>brandName</a>
+      <b>brand</b>
+    </field>
+    <field>
+      <a>nfCalories</a>
+      <b>kcal</b>
+    </field>
+    <field>
+      <a>nfServingSizeQty</a>
+      <b>servingSizeQuantity</b>
+    </field>
+    <field>
+      <a>nfServingSizeUnit</a>
+      <b>servingSizeUnit</b>
+    </field>
+    <field>
+      <a>nfServingWeightGrams</a>
+      <b>servingWeight</b>
+    </field>
+  </mapping>
+</mappings>
+        
